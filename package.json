@@ -1,0 +1,34 @@
+{
+  "name": "brew-info",
+  "version": "0.1.0",
+  "description": "information about brew formulas from json",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npx jest test --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valepert/brew-info.git"
+  },
+  "keywords": [
+    "brew"
+  ],
+  "author": "valepert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valepert/brew-info/issues"
+  },
+  "homepage": "https://github.com/valepert/brew-info#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "ramda": "^0.26.1"
+  }
+}

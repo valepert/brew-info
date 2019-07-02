@@ -1,0 +1,460 @@
+[
+  {
+    "name": "binutils",
+    "full_name": "binutils",
+    "versioned_formulae": [],
+    "desc": "GNU binary tools for native development",
+    "homepage": "https://www.gnu.org/software/binutils/binutils.html",
+    "versions": {
+      "stable": "2.32",
+      "devel": null,
+      "head": null,
+      "bottle": true
+    },
+    "revision": 0,
+    "version_scheme": 0,
+    "bottle": {
+      "stable": {
+        "rebuild": 0,
+        "cellar": ":any",
+        "prefix": "/home/linuxbrew/.linuxbrew",
+        "root_url": "https://linuxbrew.bintray.com/bottles",
+        "files": {
+          "x86_64_linux": {
+            "url": "https://linuxbrew.bintray.com/bottles/binutils-2.32.x86_64_linux.bottle.tar.gz",
+            "sha256": "ef7ed4e1f676ba42a72928a6925febf3a95d73424986f8ebb8d4b458923004b1"
+          }
+        }
+      }
+    },
+    "keg_only": false,
+    "options": [],
+    "build_dependencies": [],
+    "dependencies": [
+      "zlib"
+    ],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "requirements": [],
+    "conflicts_with": [],
+    "caveats": null,
+    "installed": [
+      {
+        "version": "2.32",
+        "used_options": [],
+        "built_as_bottle": true,
+        "poured_from_bottle": true,
+        "runtime_dependencies": [
+          {
+            "full_name": "zlib",
+            "version": "1.2.11"
+          }
+        ],
+        "installed_as_dependency": true,
+        "installed_on_request": false
+      }
+    ],
+    "linked_keg": "2.32",
+    "pinned": false,
+    "outdated": false
+  },
+  {
+    "name": "curl",
+    "full_name": "curl",
+    "versioned_formulae": [],
+    "desc": "Get a file from an HTTP, HTTPS or FTP server",
+    "homepage": "https://curl.haxx.se/",
+    "versions": {
+      "stable": "7.65.1",
+      "devel": null,
+      "head": "HEAD",
+      "bottle": true
+    },
+    "revision": 0,
+    "version_scheme": 0,
+    "bottle": {
+      "stable": {
+        "rebuild": 0,
+        "cellar": ":any",
+        "prefix": "/home/linuxbrew/.linuxbrew",
+        "root_url": "https://linuxbrew.bintray.com/bottles",
+        "files": {
+          "mojave": {
+            "url": "https://linuxbrew.bintray.com/bottles/curl-7.65.1.mojave.bottle.tar.gz",
+            "sha256": "6755d72e9f70a293983532324bf20bdca96f1e9863a1cfaa77f22a938332b9ae"
+          },
+          "high_sierra": {
+            "url": "https://linuxbrew.bintray.com/bottles/curl-7.65.1.high_sierra.bottle.tar.gz",
+            "sha256": "821cf46a2d891d0c62fa36ee55cb873a751ce8081a4cd9d03ad5de04941891d1"
+          },
+          "sierra": {
+            "url": "https://linuxbrew.bintray.com/bottles/curl-7.65.1.sierra.bottle.tar.gz",
+            "sha256": "38bed646688ef5eaff0f68e232f5909d678cf7c9459f17b3f310462a84a81539"
+          },
+          "x86_64_linux": {
+            "url": "https://linuxbrew.bintray.com/bottles/curl-7.65.1.x86_64_linux.bottle.tar.gz",
+            "sha256": "b54ae91a46d8554fc7062f0a2d6697550ce4bb53c36fee66466a787f2e3aad10"
+          }
+        }
+      }
+    },
+    "keg_only": false,
+    "options": [],
+    "build_dependencies": [
+      "pkg-config"
+    ],
+    "dependencies": [
+      "openssl"
+    ],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "requirements": [],
+    "conflicts_with": [],
+    "caveats": null,
+    "installed": [
+      {
+        "version": "7.65.1",
+        "used_options": [],
+        "built_as_bottle": false,
+        "poured_from_bottle": false,
+        "runtime_dependencies": [
+          {
+            "full_name": "openssl",
+            "version": "1.0.2s"
+          }
+        ],
+        "installed_as_dependency": false,
+        "installed_on_request": true
+      }
+    ],
+    "linked_keg": "7.65.1",
+    "pinned": false,
+    "outdated": false
+  },
+  {
+    "name": "linux-headers",
+    "full_name": "linux-headers",
+    "versioned_formulae": [],
+    "desc": "Header files of the Linux kernel",
+    "homepage": "https://kernel.org/",
+    "versions": {
+      "stable": "4.4.80",
+      "devel": null,
+      "head": null,
+      "bottle": true
+    },
+    "revision": 0,
+    "version_scheme": 0,
+    "bottle": {
+      "stable": {
+        "rebuild": 0,
+        "cellar": ":any_skip_relocation",
+        "prefix": "/home/linuxbrew/.linuxbrew",
+        "root_url": "https://linuxbrew.bintray.com/bottles",
+        "files": {
+          "x86_64_linux": {
+            "url": "https://linuxbrew.bintray.com/bottles/linux-headers-4.4.80.x86_64_linux.bottle.tar.gz",
+            "sha256": "b9d7edb2760ec070372d6dd37f2dff85c34221cf77d124d4732092447ac2cf9f"
+          }
+        }
+      }
+    },
+    "keg_only": false,
+    "options": [],
+    "build_dependencies": [],
+    "dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "requirements": [],
+    "conflicts_with": [],
+    "caveats": null,
+    "installed": [
+      {
+        "version": "4.4.80",
+        "used_options": [],
+        "built_as_bottle": true,
+        "poured_from_bottle": true,
+        "runtime_dependencies": [],
+        "installed_as_dependency": true,
+        "installed_on_request": false
+      }
+    ],
+    "linked_keg": "4.4.80",
+    "pinned": false,
+    "outdated": false
+  },
+  {
+    "name": "openssl",
+    "full_name": "openssl",
+    "versioned_formulae": [
+      "openssl@1.1"
+    ],
+    "desc": "SSL/TLS cryptography library",
+    "homepage": "https://openssl.org/",
+    "versions": {
+      "stable": "1.0.2s",
+      "devel": null,
+      "head": null,
+      "bottle": true
+    },
+    "revision": 0,
+    "version_scheme": 0,
+    "bottle": {
+      "stable": {
+        "rebuild": 0,
+        "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+        "prefix": "/home/linuxbrew/.linuxbrew",
+        "root_url": "https://linuxbrew.bintray.com/bottles",
+        "files": {
+          "mojave": {
+            "url": "https://linuxbrew.bintray.com/bottles/openssl-1.0.2s.mojave.bottle.tar.gz",
+            "sha256": "c4a762d719c2be74ac686f1aafabb32f3c5d5ff3a98935c4925a1ddb9c750ee1"
+          },
+          "high_sierra": {
+            "url": "https://linuxbrew.bintray.com/bottles/openssl-1.0.2s.high_sierra.bottle.tar.gz",
+            "sha256": "b72b8d9e582713d909936d7236542b366f07d800f8ec0eaa2d487a95c4e93bd9"
+          },
+          "sierra": {
+            "url": "https://linuxbrew.bintray.com/bottles/openssl-1.0.2s.sierra.bottle.tar.gz",
+            "sha256": "e556bbb8902700cd3cb896e0635ccb517feb4e1266911840c4b3c9e9cd044f7e"
+          },
+          "x86_64_linux": {
+            "url": "https://linuxbrew.bintray.com/bottles/openssl-1.0.2s.x86_64_linux.bottle.tar.gz",
+            "sha256": "10ed7820bc787f482ecf1dc693c0c2d3e77de7569db2f54cfd206ff1f0d17cae"
+          }
+        }
+      }
+    },
+    "keg_only": false,
+    "options": [],
+    "build_dependencies": [],
+    "dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "requirements": [],
+    "conflicts_with": [],
+    "caveats": "A CA file has been bootstrapped using certificates from the SystemRoots\nkeychain. To add additional certificates (e.g. the certificates added in\nthe System keychain), place .pem files in\n  $(brew --prefix)/etc/openssl/certs\n\nand run\n  $(brew --prefix)/opt/openssl/bin/c_rehash\n",
+    "installed": [
+      {
+        "version": "1.0.2s",
+        "used_options": [],
+        "built_as_bottle": false,
+        "poured_from_bottle": false,
+        "runtime_dependencies": [],
+        "installed_as_dependency": true,
+        "installed_on_request": false
+      }
+    ],
+    "linked_keg": "1.0.2s",
+    "pinned": false,
+    "outdated": false
+  },
+  {
+    "name": "patchelf",
+    "full_name": "patchelf",
+    "versioned_formulae": [],
+    "desc": "Modify dynamic ELF executables",
+    "homepage": "https://nixos.org/patchelf.html",
+    "versions": {
+      "stable": "0.10",
+      "devel": null,
+      "head": null,
+      "bottle": true
+    },
+    "revision": 0,
+    "version_scheme": 0,
+    "bottle": {
+      "stable": {
+        "rebuild": 0,
+        "cellar": ":any_skip_relocation",
+        "prefix": "/home/linuxbrew/.linuxbrew",
+        "root_url": "https://linuxbrew.bintray.com/bottles",
+        "files": {
+          "mojave": {
+            "url": "https://linuxbrew.bintray.com/bottles/patchelf-0.10.mojave.bottle.tar.gz",
+            "sha256": "8f57b65d6a11bfe332e7663b144c0e4e9842291c2b0a4055bd10794b2911dac4"
+          },
+          "high_sierra": {
+            "url": "https://linuxbrew.bintray.com/bottles/patchelf-0.10.high_sierra.bottle.tar.gz",
+            "sha256": "98e221be1ce346f4c33bee1fc87b7dba33aafcc88c98ac061e04a69c9c9e9584"
+          },
+          "sierra": {
+            "url": "https://linuxbrew.bintray.com/bottles/patchelf-0.10.sierra.bottle.tar.gz",
+            "sha256": "2504614537c2837d9668389349586730c38b93a632175e1cf80568b0650eb5aa"
+          },
+          "x86_64_linux": {
+            "url": "https://linuxbrew.bintray.com/bottles/patchelf-0.10.x86_64_linux.bottle.tar.gz",
+            "sha256": "988b224305ff3fecadf9bbf5fbe1b18061077be6c896935b2cef29298526f5b8"
+          }
+        }
+      }
+    },
+    "keg_only": false,
+    "options": [],
+    "build_dependencies": [],
+    "dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "requirements": [],
+    "conflicts_with": [],
+    "caveats": null,
+    "installed": [
+      {
+        "version": "0.10",
+        "used_options": [],
+        "built_as_bottle": true,
+        "poured_from_bottle": true,
+        "runtime_dependencies": [],
+        "installed_as_dependency": true,
+        "installed_on_request": false
+      }
+    ],
+    "linked_keg": "0.10",
+    "pinned": false,
+    "outdated": false
+  },
+  {
+    "name": "pkg-config",
+    "full_name": "pkg-config",
+    "versioned_formulae": [],
+    "desc": "Manage compile and link flags for libraries",
+    "homepage": "https://freedesktop.org/wiki/Software/pkg-config/",
+    "versions": {
+      "stable": "0.29.2",
+      "devel": null,
+      "head": null,
+      "bottle": true
+    },
+    "revision": 1,
+    "version_scheme": 0,
+    "bottle": {
+      "stable": {
+        "rebuild": 0,
+        "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+        "prefix": "/home/linuxbrew/.linuxbrew",
+        "root_url": "https://linuxbrew.bintray.com/bottles",
+        "files": {
+          "mojave": {
+            "url": "https://linuxbrew.bintray.com/bottles/pkg-config-0.29.2_1.mojave.bottle.tar.gz",
+            "sha256": "85e5bbffb3424f22cd1bf54b69161110481bab100f9abea54e0a0f00fcf761b9"
+          },
+          "high_sierra": {
+            "url": "https://linuxbrew.bintray.com/bottles/pkg-config-0.29.2_1.high_sierra.bottle.tar.gz",
+            "sha256": "f1b29fb5388dccab0fcaf665ab43d308ee51816b24262417bf83a686b6e308ae"
+          },
+          "sierra": {
+            "url": "https://linuxbrew.bintray.com/bottles/pkg-config-0.29.2_1.sierra.bottle.tar.gz",
+            "sha256": "8eb723bfc03cd468d779d54d015d47d2e8ab1dd4d35e595ab4abaca8833b3277"
+          },
+          "el_capitan": {
+            "url": "https://linuxbrew.bintray.com/bottles/pkg-config-0.29.2_1.el_capitan.bottle.tar.gz",
+            "sha256": "93f044f166bcbd84db14133ee4f56104031c65409cfd2801c7ac0d182936dc78"
+          },
+          "yosemite": {
+            "url": "https://linuxbrew.bintray.com/bottles/pkg-config-0.29.2_1.yosemite.bottle.tar.gz",
+            "sha256": "d9ccc19f1a55919408a1b27260b0404aa36dc6782a4a5964e6fd8409abf3b830"
+          },
+          "x86_64_linux": {
+            "url": "https://linuxbrew.bintray.com/bottles/pkg-config-0.29.2_1.x86_64_linux.bottle.tar.gz",
+            "sha256": "2f706d962b15e3af2adb10cd8625830939ad0df8fcf433eb28e98e17f68143a0"
+          }
+        }
+      }
+    },
+    "keg_only": false,
+    "options": [],
+    "build_dependencies": [],
+    "dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "requirements": [],
+    "conflicts_with": [],
+    "caveats": null,
+    "installed": [
+      {
+        "version": "0.29.2_1",
+        "used_options": [],
+        "built_as_bottle": false,
+        "poured_from_bottle": false,
+        "runtime_dependencies": [],
+        "installed_as_dependency": true,
+        "installed_on_request": true
+      }
+    ],
+    "linked_keg": "0.29.2_1",
+    "pinned": false,
+    "outdated": false
+  },
+  {
+    "name": "zlib",
+    "full_name": "zlib",
+    "versioned_formulae": [],
+    "desc": "General-purpose lossless data-compression library",
+    "homepage": "https://zlib.net/",
+    "versions": {
+      "stable": "1.2.11",
+      "devel": null,
+      "head": null,
+      "bottle": true
+    },
+    "revision": 0,
+    "version_scheme": 0,
+    "bottle": {
+      "stable": {
+        "rebuild": 0,
+        "cellar": ":any",
+        "prefix": "/home/linuxbrew/.linuxbrew",
+        "root_url": "https://linuxbrew.bintray.com/bottles",
+        "files": {
+          "mojave": {
+            "url": "https://linuxbrew.bintray.com/bottles/zlib-1.2.11.mojave.bottle.tar.gz",
+            "sha256": "245a43a59c57f83848e7382974bb80a46eac1d53bcaefb1bdebd1f85107d4169"
+          },
+          "high_sierra": {
+            "url": "https://linuxbrew.bintray.com/bottles/zlib-1.2.11.high_sierra.bottle.tar.gz",
+            "sha256": "30548658b43cf66979f2756680fbb32d3c19c967e478ceea22d07f536b22bbce"
+          },
+          "sierra": {
+            "url": "https://linuxbrew.bintray.com/bottles/zlib-1.2.11.sierra.bottle.tar.gz",
+            "sha256": "f822b4dbab4a15b889316b89248c7b4d15d6af9dc460bf209b9425b0accb7fa3"
+          },
+          "el_capitan": {
+            "url": "https://linuxbrew.bintray.com/bottles/zlib-1.2.11.el_capitan.bottle.tar.gz",
+            "sha256": "3f912f6f1ce6c586128ebde29756c883b89409e652ca7aa9a29a773c2d4d0915"
+          },
+          "yosemite": {
+            "url": "https://linuxbrew.bintray.com/bottles/zlib-1.2.11.yosemite.bottle.tar.gz",
+            "sha256": "5b969eb38b90a3e31869586df9d62e59d359212b16c6a270aee690dd67caa491"
+          },
+          "x86_64_linux": {
+            "url": "https://linuxbrew.bintray.com/bottles/zlib-1.2.11.x86_64_linux.bottle.tar.gz",
+            "sha256": "6f604280b9e056da163b81cef3076b2e39bbd2b8d3cc8c36d27c19c472c760a4"
+          }
+        }
+      }
+    },
+    "keg_only": false,
+    "options": [],
+    "build_dependencies": [],
+    "dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "requirements": [],
+    "conflicts_with": [],
+    "caveats": null,
+    "installed": [
+      {
+        "version": "1.2.11",
+        "used_options": [],
+        "built_as_bottle": true,
+        "poured_from_bottle": true,
+        "runtime_dependencies": null,
+        "installed_as_dependency": true,
+        "installed_on_request": false
+      }
+    ],
+    "linked_keg": "1.2.11",
+    "pinned": false,
+    "outdated": false
+  }
+]
