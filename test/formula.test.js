@@ -5,13 +5,13 @@ const Formula = require('../src/brew/formula')['v1']
 const endpoint = 'https://formulae.brew.sh'
 
 const formulas =
-[
-  'binutils',
-  'curl',
-  'openssl',
-  'pkg-config',
-  'zlib'
-]
+  [
+    'binutils',
+    'curl',
+    'libssh',
+    'pkg-config',
+    'zlib'
+  ]
 
 describe('test formula', () => {
   test.each(formulas)('check API against package %s', async (name) => {

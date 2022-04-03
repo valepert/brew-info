@@ -2,7 +2,7 @@
 const { brewInfo, brewInstalled } = require('../src/brew')
 
 describe('test command', () => {
-  test('brew info', async () => {
+  test.skip('brew info', async () => {
     const response = await brewInfo()
     expect(response).toEqual([])
   })
