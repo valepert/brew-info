@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/valepert/brew-info#readme",
   "devDependencies": {
-    "eslint": "^6.0.1",
+    "eslint": "^9.32.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-node": "^9.1.0",
